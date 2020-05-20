@@ -1,0 +1,50 @@
+[
+	{
+		"role": "villager",
+		"side": "villagers",
+		"description": "A villager tries to figure out who the werewolves are. They have no special powers beyond their reasoning skills",
+		"value": 1
+	},
+	{
+		"role": "werewolf",
+		"side": "werewolf",
+		"description": "A werewolf is able to kill a villager during the night phase.",
+		"value": -6
+	},
+	{
+		"role": "seer",
+		"side": "villagers",
+		"description": "A seer can investigate whether someone is a werewolf during the night phase.",
+		"value": 7
+	},
+	{
+		"role": "witch",
+		"side": "villagers",
+		"description": "The witch has two potions, a healing potion and poison. The witch may use a potion during the night to either save someone or kill them. Each potion can only be used once per game",
+		"value": 4
+	},
+	{
+		"role": "cupid",
+		"side": "villagers",
+		"description": "During the first night phase the cupid chooses two players to be lovers. If one lovers dies the other dies as well. The lovers know that they are lovers, but may not communicate secretly. If lovers are on opposite teams they must be the last two players at the end, otherwise they win when their side wins",
+		"value": -3
+	},
+	{
+		"role": "hunter",
+		"side": "villagers",
+		"description": "If you are wrongly banished you may kill another player",
+		"value": 3
+	},
+	{
+		"role": "cupid",
+		"side": "villagers",
+		"description": "During the first night phase the cupid chooses two players to be lovers. If one lovers dies the other dies as well. The lovers know that they are lovers, but may not communicate secretly. If lovers are on opposite teams they must be the last two players at the end, otherwise they win when their side wins",
+		"value": -3
+	},
+	{
+		"role": "cursed",
+		"side": "villagers",
+		"description": "If you are bitten you become a werewolf",
+		"value": -3
+	}
+]
